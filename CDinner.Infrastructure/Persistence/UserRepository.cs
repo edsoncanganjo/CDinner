@@ -1,4 +1,4 @@
-using CDinner.Application.Persistence;
+using CDinner.Application.Common.Interfaces.Persistence;
 using CDinner.Domain.Entities;
 
 namespace CDinner.Infrastructure.Persistence;

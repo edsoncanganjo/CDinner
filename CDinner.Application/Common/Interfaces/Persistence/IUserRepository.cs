@@ -1,6 +1,6 @@
 using CDinner.Domain.Entities;
 
-namespace CDinner.Application.Persistence;
+namespace CDinner.Application.Common.Interfaces.Persistence;
 
 public interface IUserRepository
 {

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Options;
 
-namespace CDinner.Api.Errors;
+namespace CDinner.Api.Common.Errors;
 
 public class CDinnerProblemDetailsFactory : ProblemDetailsFactory
 {

@@ -1,4 +1,3 @@
-using CDinner.Api.Filters;
 using CDinner.Application.Services.Authentication;
 using CDinner.Contracts.Authentication;
 using Microsoft.AspNetCore.Mvc;

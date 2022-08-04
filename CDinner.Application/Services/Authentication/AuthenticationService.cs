@@ -1,5 +1,6 @@
+using CDinner.Application.Common.Errors;
 using CDinner.Application.Common.Interfaces.Authentication;
-using CDinner.Application.Persistence;
+using CDinner.Application.Common.Interfaces.Persistence;
 using CDinner.Domain.Entities;
 
 namespace CDinner.Application.Services.Authentication;
@@ -21,7 +22,7 @@ public class AuthenticationService : IAuthenticationService
     {
         // 1. Validate the user doesn't exist
         if(_userRepository.GetUserByEmail(email) is not null){
-            throw new Exception("User with given email already exists.");
+            throw new DuplicateEmailException();
         }
 
         // Create user (generate unique Id) & Persist to DB

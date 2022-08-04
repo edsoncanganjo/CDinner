@@ -1,6 +1,6 @@
 using CDinner.Application.Common.Interfaces.Authentication;
+using CDinner.Application.Common.Interfaces.Persistence;
 using CDinner.Application.Common.Interfaces.Services;
-using CDinner.Application.Persistence;
 using CDinner.Infrastructure.Authentication;
 using CDinner.Infrastructure.Persistence;
 using CDinner.Infrastructure.Services;
