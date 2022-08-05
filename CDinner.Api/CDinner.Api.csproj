@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CDinner.Contracts\CDinner.Contracts.csproj" />
     <ProjectReference Include="..\CDinner.Application\CDinner.Application.csproj" />
+    <ProjectReference Include="..\CDinner.Contracts\CDinner.Contracts.csproj" />
     <ProjectReference Include="..\CDinner.Infrastructure\CDinner.Infrastructure.csproj" />
   </ItemGroup>
 
