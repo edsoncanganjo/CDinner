@@ -1,18 +1,14 @@
-using Microsoft.AspNetCore.Mvc.Infrastructure;
-using CDinner.Api.Common.Errors;
 using CDinner.Application;
 using CDinner.Infrastructure;
+using CDinner.Api;
 
 var builder = WebApplication.CreateBuilder(args);
 {
     // DependencyInjection
     builder.Services
+        .AddPresentation()
         .AddApplication()
         .AddInfrastructure(builder.Configuration);
-
-    builder.Services.AddControllers();
-
-    builder.Services.AddSingleton<ProblemDetailsFactory, CDinnerProblemDetailsFactory>();
 }
 
 var app = builder.Build();

@@ -33,8 +33,6 @@ public class LoginQueryHandler : IRequestHandler<LoginQuery, ErrorOr<Authenticat
         // 3. Create JWT token
         var token = _jwtTokenGenerator.GenerateToken(user);
 
-        return new AuthenticationResult(
-            user,
-            token);
+        return await Task.FromResult(new AuthenticationResult(user, token));
     }
 }

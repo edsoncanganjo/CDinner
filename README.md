@@ -18,5 +18,8 @@
       - [Via OneOf](https://www.nuget.org/packages/OneOf/);
       - [Via FluentResults](https://github.com/altmann/FluentResults);
       - Via ErrorOr & Domain Errors;
+    - Object Mapping - Mapster:
+      - MediatR;
+      - Mapster;
 
 I realy recommend this tutorial.
