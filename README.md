@@ -13,6 +13,10 @@
     - Generating JWT Tokens;
     - Repository Pattern;
     - Global Error Handling;
-    - Flow Control;
+    - Flow Control:
+      - Via Exceptions;
+      - [Via OneOf](https://www.nuget.org/packages/OneOf/);
+      - [Via FluentResults](https://github.com/altmann/FluentResults);
+      - Via ErrorOr & Domain Errors;
 
 I realy recommend this tutorial.
